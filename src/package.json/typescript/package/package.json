@@ -1,0 +1,40 @@
+{
+  "name": "__________PROJECT_NAME",
+  "version": "0.0.0",
+  "description": "__________PROJECT_DESCRIPTION",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "*"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "semantic-release": "semantic-release"
+  },
+  // "license": "Apache-2.0",
+  // "license": "CC0-1.0",
+  // "license": "GPL-2.0-only",
+  // "license": "GPL-3.0-only",
+  // "license": "MIT",
+  "author": "toolbisoftware",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toolbisoftware/__________REPOSITORY_NAME.git"
+  },
+  "bugs": {
+    "url": "https://github.com/toolbisoftware/__________REPOSITORY_NAME/issues"
+  },
+  "homepage": "https://github.com/toolbisoftware/__________REPOSITORY_NAME#readme",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "latest",
+    "rollup": "latest",
+    "rollup-plugin-copy": "latest",
+    "ts-node": "latest",
+    "typescript": "latest"
+  }
+}
