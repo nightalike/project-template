@@ -6,3 +6,7 @@ body:
     attributes:
       value: |
         Testing.
+  - type: input
+    attributes:
+      label: What version of __________PROJECT_NAME is running?
+      description: __
