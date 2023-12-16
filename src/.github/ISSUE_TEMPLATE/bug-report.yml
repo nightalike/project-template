@@ -1,0 +1,8 @@
+name: Bug Report
+description: Report an issue that should be fixed.
+labels: ["Type: Bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Testing.
