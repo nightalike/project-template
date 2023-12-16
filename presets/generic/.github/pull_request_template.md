@@ -8,4 +8,4 @@ _Is there something else you think we should know?_
 
 ## Checks
 
-- [ ] I have the recommended tools by Toolbi for contributing.
+- [ ] I am aware of [Toolbi's Contribution Guidelines](https://github.com/toolbisoftware/contributing/blob/main/CONTRIBUTING.md) and I follow them.
