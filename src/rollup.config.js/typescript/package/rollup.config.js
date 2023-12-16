@@ -15,7 +15,21 @@ export default {
   },
   plugins: [
     copy({
-      targets: [{ src: "src/types", dest: "build" }]
+      targets: [
+        { src: "src/types", dest: "build" },
+        {
+          src: "package.json",
+          dest: "build"
+        },
+        {
+          src: "README.md",
+          dest: "build"
+        },
+        {
+          src: "LICENSE",
+          dest: "build"
+        }
+      ]
     }),
     typescript({
       tsconfig: "tsconfig.json"
