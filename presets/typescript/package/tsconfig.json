@@ -3,6 +3,7 @@
     "target": "esnext",
     "module": "nodenext",
     "moduleResolution": "nodenext",
+    "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "declaration": true,
     "emitDeclarationOnly": true,
