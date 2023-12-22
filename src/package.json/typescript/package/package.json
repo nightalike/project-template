@@ -12,6 +12,7 @@
     "*"
   ],
   "scripts": {
+    "test": "jest",
     "build": "rollup -c",
     "semantic-release": "semantic-release"
   },
@@ -32,9 +33,12 @@
   "homepage": "https://github.com/toolbisoftware/__________REPOSITORY_NAME#readme",
   "devDependencies": {
     "@rollup/plugin-typescript": "latest",
+    "@types/jest": "latest",
+    "jest": "latest",
     "rollup": "latest",
     "rollup-plugin-copy": "latest",
-    "ts-node": "latest",
+    "ts-jest": "latest",
+    "tslib": "latest",
     "typescript": "latest"
   }
 }
