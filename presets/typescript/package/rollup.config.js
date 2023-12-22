@@ -3,7 +3,7 @@
 
 import typescript from "@rollup/plugin-typescript";
 import copy from "rollup-plugin-copy";
-import pkg from "./package.json";
+import pkg from "./package.json" assert { type: "json" };
 
 /** @type {import("rollup").RollupOptions} */
 export default {
