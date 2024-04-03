@@ -17,16 +17,16 @@
   // "license": "GPL-2.0-only",
   // "license": "GPL-3.0-only",
   // "license": "MIT",
-  "author": "toolbisoftware",
+  "author": "nightalike",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/toolbisoftware/__________REPOSITORY_NAME.git"
+    "url": "git+https://github.com/nightalike/__________REPOSITORY_NAME.git"
   },
   "bugs": {
-    "url": "https://github.com/toolbisoftware/__________REPOSITORY_NAME/issues"
+    "url": "https://github.com/nightalike/__________REPOSITORY_NAME/issues"
   },
-  "homepage": "https://github.com/toolbisoftware/__________REPOSITORY_NAME#readme",
+  "homepage": "https://github.com/nightalike/__________REPOSITORY_NAME#readme",
   "devDependencies": {
     "nodemon": "latest",
     "ts-node": "latest",
