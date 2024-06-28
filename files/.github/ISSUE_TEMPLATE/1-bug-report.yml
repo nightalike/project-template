@@ -1,0 +1,49 @@
+name: 🐛 Bug Report
+description: Report an issue that should be fixed.
+labels: ["Type: Bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for submitting a bug report. It helps make the project better.
+
+        Before continuing make sure that:
+        - this issue is a bug report and you are not just asking for help or technical support. If that's not the case, join our [Discord](https://discord.toolbi.xyz) server instead.
+        - you are using the latest version of %%%PROJECT_NAME%%%.
+
+        Please, try to include as much information as possible.
+  - type: input
+    attributes:
+      label: What version of %%%PROJECT_NAME%%% are you using?
+      description: %%%VERSION_GUIDE%%%
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What platform is being used?
+      description: |
+        For Windows: copy the output of `"$([Environment]::OSVersion | ForEach-Object VersionString) $(if ([Environment]::Is64BitOperatingSystem) { "x64" } else { "x86" })"` in the PowerShell console.
+        For Linux and MacOS: copy the output of `uname -mprs`.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What steps can reproduce the bug?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What is the expected behaviour?
+      description: If possible, please provide text instead of only images and videos.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What happens instead?
+      description: If possible, please provide text instead of only images and videos.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: Is there something else you think we should know?
