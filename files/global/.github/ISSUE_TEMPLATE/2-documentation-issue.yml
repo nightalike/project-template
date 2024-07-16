@@ -1,6 +1,6 @@
 name: 📗 Documentation Issue
 description: Report an issue with the documentation.
-labels: ["Category: Documentation"]
+labels: ["Type: Documentation"]
 body:
   - type: markdown
     attributes:
@@ -15,8 +15,8 @@ body:
         - Documentation is incorrect
         - Documentation is confusing
         - Something else
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: What is the issue?
