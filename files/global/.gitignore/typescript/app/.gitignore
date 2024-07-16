@@ -2,9 +2,11 @@
 # Check the README file in the project root for more information.
 
 # File Extensions
+*.env
 
 # Folders
-target/
+/build
+/logs
+/node_modules
 
 # Files
-src/.npmrc/typescript/private/.npmrc

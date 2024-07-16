@@ -4,7 +4,7 @@
 # File Extensions
 
 # Folders
-target/
+/build
+/node_modules
 
 # Files
-src/.npmrc/typescript/private/.npmrc
