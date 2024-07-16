@@ -4,8 +4,7 @@
 # File Extensions
 
 # Folders
-target
-.old
+target/
 
 # Files
 src/.npmrc/typescript/private/.npmrc
