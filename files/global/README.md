@@ -8,4 +8,4 @@
 
 Check out how to do it [**here**](%%%CONTRIBUTING_FILE_URL%%%).%%%LICENSE_NOTICE%%%
 
-###### Copyright (c) Toolbi Software. All rights reserved.
+###### Copyright (c) NIGHTALIKE. All rights reserved.
